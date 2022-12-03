@@ -1,0 +1,50 @@
+Started by user [8mha:////4FAMr8sKAaDoukOWQxjeO7UIdolv4UPrx11FRcaQvr28AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6pcWpRfplmXmpqcUZScmGRsYAP8m/88cAAAA=[0mVineesh
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/3rd_job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/3rd_job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vineeshbc123/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/vineeshbc123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/vineeshbc123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision fc887c155a5f1417721f0bec5b9f55e918af7272 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fc887c155a5f1417721f0bec5b9f55e918af7272 # timeout=10
+Commit message: "Merge pull request #5 from vineeshbc123/revert-4-crp"
+ > git rev-list --no-walk fc887c155a5f1417721f0bec5b9f55e918af7272 # timeout=10
+[3rd_job] $ /bin/sh -xe /tmp/jenkins6438751378252805171.sh
++ ls
+factorial.sh
+largest.sh
+myfile1
+pali.sh
+palindrome.sh
+pallindrome.sh
+realtime.sh
+reverse.sh
+sat1.sh
+sat2.sh
+sat3.sh
+shel1.sh
+shell1.sh
+shell2.sh
+shell3.sh
+shell4.sh
+shell5.sh
+shell6.sh
+shell7.sh
+string.sh
+test1
+testfolder
+testpali.sh
+touch1
++ pwd
+/var/lib/jenkins/workspace/3rd_job
++ sh factorial.sh
+The factoril  of a number 10 is 3628800
+The factoril  of a number 15 is 1307674368000
+Finished: SUCCESS

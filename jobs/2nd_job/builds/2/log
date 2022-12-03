@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4Ei5wIjUsRBn6amKm5ncEzoIQFMsm+NFspM4mxJBCmi3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH3D4pJ4EA0AF9xmZcIAAAA=[0m1st_job" build number [8mha:////4BMMJ4ZSYw4Ukp3MCvTNTCFRa3ixVOGihp5c6fpCetxlAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwkfcPikngQbQQA6otihsMAAAA=[0m2
+originally caused by:
+ Started by user [8mha:////4FAMr8sKAaDoukOWQxjeO7UIdolv4UPrx11FRcaQvr28AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6pcWpRfplmXmpqcUZScmGRsYAP8m/88cAAAA=[0mVineesh
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/2nd_job
+[2nd_job] $ /bin/sh -xe /tmp/jenkins2561712070052193195.sh
++ rm -rf myrepo
++ git clone https://github.com/vineeshbc123/myrepo.git
+Cloning into 'myrepo'...
++ pwd
+/var/lib/jenkins/workspace/2nd_job
++ sh myrepo/factorial.sh
+The factoril  of a number 10 is 3628800
+The factoril  of a number 15 is 1307674368000
+Finished: SUCCESS

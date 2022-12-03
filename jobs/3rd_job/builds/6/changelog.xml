@@ -1,0 +1,9 @@
+commit b7e1f6e62edf0bd2f77bbb62d6468a14b1c7e573
+tree e1406a3cf7a99c139aa805e814e0b66ca5823c78
+parent 65cfad8130ea5a8d3bcdd777f57f4ee6ee0a2721
+author vineeshbc123 <118235885+vineeshbc123@users.noreply.github.com> 2022-11-27 22:14:18 +0530
+committer GitHub <noreply@github.com> 2022-11-27 22:14:18 +0530
+
+    Rename install_tomcat to tomcat
+
+:100644 100644 96847e92e3304665b5e6e47464ac2300dcaf7667 96847e92e3304665b5e6e47464ac2300dcaf7667 R100	install_tomcat	tomcat

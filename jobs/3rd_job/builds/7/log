@@ -1,0 +1,56 @@
+Started by an SCM change
+Running as SYSTEM
+Building remotely on [8mha:////4Awunb2KD3bTl51L91EBHAyQhWc0RrHwiFh5aN6J6FtPAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (sharathbuild) in workspace /home/sharath/workspace/3rd_job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vineeshbc123/myrepo.git
+ > git init /home/sharath/workspace/3rd_job # timeout=10
+Fetching upstream changes from https://github.com/vineeshbc123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/vineeshbc123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vineeshbc123/myrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c4433ac7039a103b27a2ca61645346637d294e0c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c4433ac7039a103b27a2ca61645346637d294e0c # timeout=10
+Commit message: "Create tom"
+ > git rev-list --no-walk b7e1f6e62edf0bd2f77bbb62d6468a14b1c7e573 # timeout=10
+[3rd_job] $ /bin/sh -xe /tmp/jenkins13044639967152255980.sh
++ ls
+factorial.sh
+largest.sh
+pali.sh
+palindrome.sh
+pallindrome.sh
+realtime.sh
+reverse.sh
+sat1.sh
+sat2.sh
+sat3.sh
+shel1.sh
+shell1.sh
+shell2.sh
+shell3.sh
+shell4.sh
+shell5.sh
+shell6.sh
+shell7.sh
+string.sh
+test1
+testfolder
+testpali.sh
+tom
+tomcat
+touch1
++ pwd
+/home/sharath/workspace/3rd_job
++ sh factorial.sh
+The factoril  of a number 10 is 3628800
+The factoril  of a number 15 is 1307674368000
+triggered from webhhok
+Hi
+Finished: SUCCESS

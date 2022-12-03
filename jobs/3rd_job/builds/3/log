@@ -1,0 +1,51 @@
+Started by GitHub push by vineeshbc123
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/3rd_job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/3rd_job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vineeshbc123/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/vineeshbc123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/vineeshbc123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 06f7e4506f6949aebdf11ae6d1ba20e62a1517a2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 06f7e4506f6949aebdf11ae6d1ba20e62a1517a2 # timeout=10
+Commit message: "Update factorial.sh"
+ > git rev-list --no-walk fc887c155a5f1417721f0bec5b9f55e918af7272 # timeout=10
+[3rd_job] $ /bin/sh -xe /tmp/jenkins11930345351202445568.sh
++ ls
+factorial.sh
+largest.sh
+myfile1
+pali.sh
+palindrome.sh
+pallindrome.sh
+realtime.sh
+reverse.sh
+sat1.sh
+sat2.sh
+sat3.sh
+shel1.sh
+shell1.sh
+shell2.sh
+shell3.sh
+shell4.sh
+shell5.sh
+shell6.sh
+shell7.sh
+string.sh
+test1
+testfolder
+testpali.sh
+touch1
++ pwd
+/var/lib/jenkins/workspace/3rd_job
++ sh factorial.sh
+The factoril  of a number 10 is 3628800
+The factoril  of a number 15 is 1307674368000
+triggered from webhhok
+Finished: SUCCESS

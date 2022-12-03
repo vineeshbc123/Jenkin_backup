@@ -1,0 +1,28 @@
+Started by user [8mha:////4FAMr8sKAaDoukOWQxjeO7UIdolv4UPrx11FRcaQvr28AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6pcWpRfplmXmpqcUZScmGRsYAP8m/88cAAAA=[0mVineesh
+Running as SYSTEM
+Building remotely on [8mha:////4Awunb2KD3bTl51L91EBHAyQhWc0RrHwiFh5aN6J6FtPAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (sharathbuild) in workspace /home/sharath/workspace/Tomcat installation
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vineeshbc123/myrepo.git
+ > git init /home/sharath/workspace/Tomcat installation # timeout=10
+Fetching upstream changes from https://github.com/vineeshbc123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/vineeshbc123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vineeshbc123/myrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f077854eeeddeaf5eba75cc0e77adef94c30d348 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f077854eeeddeaf5eba75cc0e77adef94c30d348 # timeout=10
+Commit message: "Update largest.sh"
+First time build. Skipping changelog.
+[Tomcat installation] $ /bin/sh -xe /tmp/jenkins4539352737355464595.sh
++ pwd
+/home/sharath/workspace/Tomcat installation
++ sh myrepo/ largest.sh
+sh: 0: cannot open myrepo/: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

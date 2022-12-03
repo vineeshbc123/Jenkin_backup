@@ -1,0 +1,12 @@
+Started on Nov 28, 2022, 2:14:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision b7e1f6e62edf0bd2f77bbb62d6468a14b1c7e573 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/vineeshbc123/myrepo.git # timeout=10
+Found 7 remote heads on https://github.com/vineeshbc123/myrepo.git
+[poll] Latest remote head revision on refs/heads/master is: c4433ac7039a103b27a2ca61645346637d294e0c
+Done. Took 0.56 sec
+Changes found

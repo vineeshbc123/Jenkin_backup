@@ -1,0 +1,52 @@
+Started by an SCM change
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/3rd_job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/3rd_job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vineeshbc123/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/vineeshbc123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/vineeshbc123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision b7e1f6e62edf0bd2f77bbb62d6468a14b1c7e573 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b7e1f6e62edf0bd2f77bbb62d6468a14b1c7e573 # timeout=10
+Commit message: "Rename install_tomcat to tomcat"
+ > git rev-list --no-walk 65cfad8130ea5a8d3bcdd777f57f4ee6ee0a2721 # timeout=10
+[3rd_job] $ /bin/sh -xe /tmp/jenkins7955297300042901155.sh
++ ls
+factorial.sh
+largest.sh
+pali.sh
+palindrome.sh
+pallindrome.sh
+realtime.sh
+reverse.sh
+sat1.sh
+sat2.sh
+sat3.sh
+shel1.sh
+shell1.sh
+shell2.sh
+shell3.sh
+shell4.sh
+shell5.sh
+shell6.sh
+shell7.sh
+string.sh
+test1
+testfolder
+testpali.sh
+tomcat
+touch1
++ pwd
+/var/lib/jenkins/workspace/3rd_job
++ sh factorial.sh
+The factoril  of a number 10 is 3628800
+The factoril  of a number 15 is 1307674368000
+triggered from webhhok
+Hi
+Finished: SUCCESS
