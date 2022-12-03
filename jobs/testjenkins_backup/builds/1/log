@@ -1,0 +1,8 @@
+Started by user [8mha:////4FAMr8sKAaDoukOWQxjeO7UIdolv4UPrx11FRcaQvr28AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6pcWpRfplmXmpqcUZScmGRsYAP8m/88cAAAA=[0mVineesh
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/testjenkins_backup
+[testjenkins_backup] $ /bin/sh -xe /tmp/jenkins10260223290025161475.sh
++ pwd
+/var/lib/jenkins/workspace/testjenkins_backup
++ ls
+Finished: SUCCESS
