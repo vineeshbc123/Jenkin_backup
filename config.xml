@@ -1,11 +1,41 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
-  <disabledAdministrativeMonitors/>
+  <disabledAdministrativeMonitors>
+    <string>org.jenkinsci.plugins.rolestrategy.NamingStrategyAdministrativeMonitor</string>
+  </disabledAdministrativeMonitors>
   <version>2.361.4</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="com.michelin.cio.hudson.plugins.rolestrategy.RoleBasedAuthorizationStrategy">
+    <roleMap type="slaveRoles"/>
+    <roleMap type="projectRoles">
+      <role name="1st_job" pattern="1st_job">
+        <permissions>
+          <permission>hudson.model.Item.Read</permission>
+          <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create</permission>
+          <permission>hudson.model.Item.Build</permission>
+          <permission>hudson.model.Run.Update</permission>
+          <permission>hudson.model.View.Read</permission>
+        </permissions>
+        <assignedSIDs>
+          <sid>developer</sid>
+        </assignedSIDs>
+      </role>
+      <role name="2nd_job" pattern="2nd_job">
+        <permissions>
+          <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update</permission>
+          <permission>hudson.model.View.Delete</permission>
+          <permission>hudson.model.Item.Delete</permission>
+          <permission>hudson.model.Item.Create</permission>
+          <permission>hudson.model.Run.Update</permission>
+          <permission>hudson.model.View.Read</permission>
+        </permissions>
+        <assignedSIDs>
+          <sid>test</sid>
+        </assignedSIDs>
+      </role>
+    </roleMap>
     <roleMap type="globalRoles">
       <role name="admin" pattern=".*">
         <permissions>
@@ -45,34 +75,6 @@
         </assignedSIDs>
       </role>
     </roleMap>
-    <roleMap type="projectRoles">
-      <role name="1st_job" pattern="1st_job">
-        <permissions>
-          <permission>hudson.model.Item.Read</permission>
-          <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create</permission>
-          <permission>hudson.model.Item.Build</permission>
-          <permission>hudson.model.Run.Update</permission>
-          <permission>hudson.model.View.Read</permission>
-        </permissions>
-        <assignedSIDs>
-          <sid>developer</sid>
-        </assignedSIDs>
-      </role>
-      <role name="2nd_job" pattern="2nd_job">
-        <permissions>
-          <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update</permission>
-          <permission>hudson.model.View.Delete</permission>
-          <permission>hudson.model.Item.Delete</permission>
-          <permission>hudson.model.Item.Create</permission>
-          <permission>hudson.model.Run.Update</permission>
-          <permission>hudson.model.View.Read</permission>
-        </permissions>
-        <assignedSIDs>
-          <sid>test</sid>
-        </assignedSIDs>
-      </role>
-    </roleMap>
-    <roleMap type="slaveRoles"/>
   </authorizationStrategy>
   <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
     <disableSignup>true</disableSignup>
